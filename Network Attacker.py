@@ -2,7 +2,7 @@ from scapy.all import *
 import paramiko
 
 # create the variable "Target" and assign a user input to it.
-Target = input("Enter the IP address of the target host")
+Target = input("Enter the IP address of the target host: ")
 
 # create the variable "Registered_Ports"
 Registered_Ports = range(1, 1024)
